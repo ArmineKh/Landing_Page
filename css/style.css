@@ -106,7 +106,52 @@ h2{
 	font-size: 22px;
 	margin-bottom: 20px;
 }
-
+#profile-tab, 
+#home-tab{
+	text-transform: uppercase;
+}
+.section-tabs .nav-tabs .nav-item a{
+	color: #6a7079;
+}
+.section-tabs{
+	border: 3px solid #ececec;
+	border-radius: 2px;
+}
+.section-tabs .nav-tabs li:not(.activ){
+	background: #ececec;
+}
+.section-tabs .nav-tabs .nav-jusified li a,
+.section-tabs .nav-tabs .nav-jusified li.activ a,
+.section-tabs .nav-tabs .nav-jusified li.activ a:focus,
+.section-tabs .nav-tabs .nav-jusified li.activ a:hover{
+	border-radius: 0;
+	border: none;
+	font-family: 'Ubuntu', sans-seif;
+	font-size: 18px;
+	font-weight: 700;
+	outline: 0;
+}
+.section-tabs .nav-tabs li.activ a{
+	color: #9097a1;
+}
+.section-tabs .tab-content{
+	padding: 25px 20px;
+}
+.section-tabs .tab-content ul{
+	padding-left: 10px: 
+}
+.section-tabs .tab-content ul li{
+	line-height: 30px;
+}
+.section-tabs .tab-content ul li i{
+	font-size: 15px;
+	color: #2cc7c1;
+	margin-right: 10px;
+}
+.speakers-head,
+.speakers-footer{
+	display: inline-block;
+}
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {

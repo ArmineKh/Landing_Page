@@ -1,6 +1,3 @@
-$(function(){
-	
+$(function () {
+  $('#myTab li:last-child a').tab('show')
 });
-  $(function () {
-    $('#myTab li:last-child a').tab('show')
-  })
