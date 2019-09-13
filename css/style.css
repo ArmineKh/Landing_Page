@@ -102,6 +102,7 @@ h2{
 	color: #828689;
 }
 .large{
+	width: 100%;
 	color: #828689;
 	font-size: 22px;
 	margin-bottom: 20px;
@@ -148,10 +149,75 @@ h2{
 	color: #2cc7c1;
 	margin-right: 10px;
 }
-.speakers-head,
+/*.speakers-head,
 .speakers-footer{
 	display: inline-block;
+}*/
+.speakers-head h2{
+	text-transform: uppercase;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	color: #6a7079;
 }
+.speakers h3{
+	color: #777a7d;
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+}
+.speakers-head{
+	margin-top: 100px;
+	margin-bottom: 60px;
+}
+.speakers-footer{
+	margin-top: 70px;
+}
+.item>div h3{
+	margin: 15px 0;
+}
+.item>div{
+	position: relative;
+}
+.item>div:hover .front{
+	opacity: .2;
+}
+.item>div:hover .back{
+	opacity: 1;
+}
+.item>div:hover h3{
+	color: #2cc7c1;
+}
+.front{
+	position: absolute;
+	width: 140px;
+	height: 140px;
+	opacity: 1;
+	cursor: pointer;
+	/*for IE*/
+	left:50%;
+	margin-left: -70px;
+}
+.back{
+	width: 140px;
+	height: 140px;
+	opacity: 0;
+	background: #6bd8d3;
+	display: inline-block;
+	border-radius: 50%;
+}
+.back i{
+	line-height: 140px;
+	font-size: 30px;
+	color: #fff;
+}
+/*===========Events============*/
+#events{
+	padding: 90px 0;
+}
+.link{
+	text-transform: uppercase;
+}
+
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -160,6 +226,16 @@ h2{
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+#speakers{
+	padding: 20px 0;
+}
+.speakers-head,
+.speaker-footer{
+	margin: 20px 0;
+}
+.row-item-col{
+	margin: 20px 0;
+}
 	
 }
 

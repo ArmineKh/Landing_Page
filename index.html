@@ -44,7 +44,7 @@
 					<p class="large">Design must be functional, and functionality must be translated into visual aesthetics without any reliance on gimmicks that have to be explanined.</p>
 					<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem qui nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consecteture adipisci velit, sed quia non numquam eius</p> 
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 row-item-col">
 					<div class="section-tabs">
 						<ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
 							<li class="nav-item">
@@ -55,7 +55,7 @@
 							</li>
 						</ul>
 						<div class="tab-content clearfix">
-							<div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+							<div class="tab-pane fade in active" id="home" role="tabpanel" aria-labelledby="home-tab">
 								<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odot aut fugit, sed quia consequuntur magni dolores eos.</p>
 								<ul class="list-unstyled pull-left">
 									<li><i class="fa fa-check-circle"></i> Nemo enim ipsam voluptatem</li>
@@ -65,7 +65,7 @@
 								</ul>
 								<img src="img/tab_img.png" alt="" class="pull-right">
 							</div>
-							<div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+							<div class="fade tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 								<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odot aut fugit, sed quia consequuntur magni dolores eos.</p>
 								<ul class="list-unstyled pull-left">
 									<li><i class="fa fa-check-circle"></i> Nemo enim ipsam voluptatem</li>
@@ -83,51 +83,214 @@
 				<p class="large">Sed ut perspiciatis unde omnis iste natus error</p>
 			</div> <!-- /.speakers-head -->
 
-			<div class="row speakers">
+			<div class="row speakers text-center">
 				<div class="col-sm-3">
-					<div class="item">
+					<div class="item row-item-col">
 						<div>
-							<img class="rounded-circle" src="img/jobs.jpg" alt="Edward">
+							<img class="rounded-circle front" src="img/jobs.jpg" alt="Edward" data-toggle="modal" data-target="#edward">
+							<span class="back"><i class="fa fa-twitter"></i></span>
 							<h3>Edward</h3>
+							<!-- Modal -->
+							<div class="modal fade" id="edward" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLabel">Edward</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque lau dantium, totam rem</p>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div> <!-- / Modal -->
 						</div>
 						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque lau dantium, totam rem</p>
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<div class="item">
+					<div class="item row-item-col">
 						<div>
-							<img class="rounded-circle" src="img/lucy.jpg" alt="Lucy">
+							<img class="front rounded-circle" src="img/lucy.jpg" alt="Lucy" data-toggle="modal" data-target="#lucy">
+							<span class="back"><i class="fa fa-twitter"></i></span>
 							<h3>Lucy</h3>
+							<!-- Modal -->
+							<div class="modal fade" id="lucy" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLabel">Lucy</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque lau dantium, totam rem</p>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div> <!-- / Modal -->
 						</div>
 						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque lau dantium, totam rem</p>
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<div class="item">
+					<div class="item row-item-col">
 						<div>
-							<img class="rounded-circle" src="img/jobs.jpg" alt="Edward">
+							<img class="front rounded-circle" src="img/jobs.jpg" alt="Nathan" data-toggle="modal" data-target="#nathan">
+							<span class="back"><i class="fa fa-twitter"></i></span>				
 							<h3>Nathan</h3>
+							<!-- Modal -->
+							<div class="modal fade" id="nathan" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLabel">Nathan</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque lau dantium, totam rem</p>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div> <!-- / Modal -->
 						</div>
 						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque lau dantium, totam rem</p>
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<div class="item">
+					<div class="item row-item-col">
 						<div>
-							<img class="rounded-circle" src="img/jobs.jpg" alt="Edward">
+							<img class="front rounded-circle" src="img/jobs.jpg" alt="Edward" data-toggle="modal" data-target="#jacob">
+							<span class="back"><i class="fa fa-twitter"></i></span>
 							<h3>Jacob</h3>
+							<!-- Modal -->
+							<div class="modal fade" id="jacob" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLabel">Jacob</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque lau dantium, totam rem</p>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div> <!-- / Modal -->
 						</div>
 						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque lau dantium, totam rem</p>
 					</div>
 				</div>
 			</div> <!-- /.row -->
 			<div class="row text-center speakers-footer">
-				<p class="large">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-				<div class="section-btn">
+				<p class="large">Sed ut perspiciatis unde omnis iste natus error <br> sit voluptatem accusantium doloremque</p>
+				<div class="section-btn col text-center">
 					<a href="#" class="btn btn-primary">register <i class="fa fa-chevron-circle-right"></i> </a>
 				</div>
 			</div>
 		</div>
+	</section>
+
+	<section id="events">
+		<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h2>EVENT schedule</h2>
+				<p class="large">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+				<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem qui nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consecteture adipisci velit, sed quia non numquam eius</p>
+				<a href="#" class="link"><i class="fa fa-arrow-circle-down"></i>All schedule (PDF)</a>
+			</div>
+			<div class="col-md-6">
+				
+					<div class="section-tabs">
+						<ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">nov 18</a>
+								
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">nov 19</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="profile-tab" data-toggle="tab" href="#nav20" role="tab" aria-controls="profile" aria-selected="false">nov 20</a>
+							</li>
+						</ul>
+						<div class="tab-content clearfix">
+							<div class="tab-pane fade in active" id="home" role="tabpanel" aria-labelledby="home-tab">
+  <div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+  </div>
+</div>
+								<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odot aut fugit, sed quia consequuntur magni dolores eos.</p>
+								<ul class="list-unstyled pull-left">
+									<li><i class="fa fa-check-circle"></i> Nemo enim ipsam voluptatem</li>
+									<li><i class="fa fa-check-circle"></i> Neque porro quisquam est</li>
+									<li><i class="fa fa-check-circle"></i> Quis autem vel eum</li>
+									<li><i class="fa fa-check-circle"></i> Lorem ipsum dolor sit amet</li>
+								</ul>
+								<img src="img/tab_img.png" alt="" class="pull-right">
+							</div>
+							<div class="fade tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+								<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+  </a>
+  <div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+  </div>
+</div>
+								<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odot aut fugit, sed quia consequuntur magni dolores eos.</p>
+								<ul class="list-unstyled pull-left">
+									<li><i class="fa fa-check-circle"></i> Nemo enim ipsam voluptatem</li>
+									<li><i class="fa fa-check-circle"></i> Neque porro quisquam est</li>
+									<li><i class="fa fa-check-circle"></i> Quis autem vel eum</li>
+									<li><i class="fa fa-check-circle"></i> Lorem ipsum dolor sit amet</li>
+								</ul>
+							</div>
+							<div class="fade tab-pane" id="nav20" role="tabpanel" aria-labelledby="profile-tab">
+								<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+  </a>
+  <div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+  </div>
+</div>
+								<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odot aut fugit, sed quia consequuntur magni dolores eos.</p>
+								<ul class="list-unstyled pull-left">
+									<li><i class="fa fa-check-circle"></i> Nemo enim ipsam voluptatem</li>
+									<li><i class="fa fa-check-circle"></i> Neque porro quisquam est</li>
+									<li><i class="fa fa-check-circle"></i> Quis autem vel eum</li>
+									<li><i class="fa fa-check-circle"></i> Lorem ipsum dolor sit amet</li>
+								</ul>
+							</div>
+						</div>
+					</div> <!--/.section-tabs -->
+
+			</div>
+
+		</div>
+	</div>
 	</section>
 
 	<!-- Optional JavaScript -->
