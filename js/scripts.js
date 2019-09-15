@@ -14,6 +14,11 @@ $(function(){
 			error: 'fa fa-times-circle'
 		}
 	});
+
+	new WOW({
+		offset : 150
+	}).init();
+	
 });
 
 

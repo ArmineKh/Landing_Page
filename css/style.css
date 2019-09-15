@@ -268,7 +268,15 @@ h2{
 }
 /*---------form------------*/
 #form{
+	padding: 90px 0;
 	background: #f3f3f3;
+}
+#form h2{
+	width: 100%;
+}
+#form .col-md-10{
+	width: 100%;
+	left: 110px;
 }
 .section-form{
 	background: #fff;
@@ -291,15 +299,20 @@ h2{
 	background: #fff;
 	box-shadow: none;
 }
-span>.fa-check-circle,
+span .fa-check-circle,
 .fa-times-circle{
-	position: absolute;
+	/*position: absolute;*/
 	right: 25px;
     bottom: 15px;
 	/*line-height: 44px;
 	right: 10px;*/
 }
-span>.fa-check-circle{
+.glyphicon{
+	position: absolute;
+	right: 20px;
+	bottom: 15px
+}
+span.fa-check-circle{
 	color: #2cc7c1;
 }
 span.fa-times-circle{
@@ -308,15 +321,83 @@ color: red;
 #myForm>.form-group{
 	position: relative;
 }
+#form option{
+	background: #2f2a2a;
+	color: #fff;
+}
+#form select{
+	background: #4684f9;
+	color: #4c5158;
+	font-weight: 700;
+	box-shadow: none;
+}
+/*========#sponsors===========*/
+#sponsors{
+	background: #fff;
+	text-align: center;
+	padding: 60px 0;
+}
+/*=============#contacts===============*/
+#contacts{
+	background: #525b64;
+	padding: 70px 0;
+}
+#contacts h3,
+#contacts h4{
+	font-family: 'Ubuntu', sans-serif;
+	color: #fff;
+	margin: 0 0 25px;
+} 
+#contacts h3 span{
+	font-weight: 700;
+}
+#contacts h4{
+	font-style: 20px;
+}
+#contacts p{
+	color: #cdd0d2;
+}
+#contacts a,
+#contacts .contacts p{
+	color: #2cc7c1;
+	font-weight: 500;
+}
+#contacts .contacts p i{
+	margin-right: 10px;
+}
+.social img{
+	margin-right: 20px;
+}
+.contact-social .fa{
+	font-size: 20px;
+}
+/*============#copy=============*/
+#copy{
+	background: #3f464c;
+	padding: 15px 0;
+}
+#copy p{
+	margin: 0;
+	color: #cacaca;
+	font-size: 14px;
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+#form .col-md-10{
+	left: 70px;
+}
+#form{
+	padding-top: : 20px;
+}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 #speakers,
-#events{
+#events,
+#form,
+#contacts{
 	padding: 20px 0;
 }
 .speakers-head,
@@ -328,11 +409,23 @@ color: red;
 }
 .row-item{
 	margin-top: 30px;
+}
+#form .col-md-10{
+	left: 0;
 }	
+#sponsors{
+padding: 20px 0 0;
+}
+#sponsors img{
+	margin-bottom: 20px;
+}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+#form .col-md-10{
+	left: 0;
+}
 	
 }
 @media only screen and (max-width : 600px) {
@@ -351,6 +444,9 @@ color: red;
 }
 .section-btn{
 	font-size: 15px;
+}
+#form .col-md-10{
+	left: 0;
 }
 }
 
